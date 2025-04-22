@@ -1,0 +1,7 @@
+(:name           "busco")
+(:repo           "taffish-org/busco")
+(:author         "KaiyuanHan")
+(:version        "5.8.2")
+(:intro          "BUSCO: Assessing Genomic Data Quality and Beyond")
+(:dependencies)
+(:functions      "busco")

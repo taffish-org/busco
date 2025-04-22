@@ -1,0 +1,9 @@
++TOOL:busco
+ARGS
+    <else>
+        busco --help
+    <main>
+        busco ::*APP-ARGS*::
+RUN
+    <container:taf-busco-v5.8.2:ghcr.io/taffish-org/busco:5.8.2>
+        ::*MAIN*::
